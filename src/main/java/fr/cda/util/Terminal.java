@@ -47,10 +47,10 @@ public class Terminal{
         catch(Exception ex) {return null;}
     }
 
-    /** Cette m�thode permet de cr�er un fichier texte � partir du contenu d'un StringBuffer.
-        @param nomFichier Le nom du fichier qui est cr�� dans le r�pertoire courant
-        @param strbuf Le StringBuffer contenant le texte � �crire. 
-        @exception TerminalException (de type RuntimeException) si erreur d'�criture
+    /** Cette méthode permet de créer un fichier texte à partir du contenu d'un StringBuffer.
+        @param nomFichier Le nom du fichier qui est créé dans le répertoire courant
+        @param strbuf Le StringBuffer contenant le texte à écrire.
+        @exception TerminalException (de type RuntimeException) si erreur d'écriture
     */
     public static void ecrireFichier(String nomFichier,
                                      StringBuffer strbuf)

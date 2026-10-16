@@ -26,6 +26,8 @@ public class Produit
         this.quantite = quantite;
     }
 
+
+
     // Conversion en chaine
     //
     public String toString()

@@ -13,7 +13,6 @@ public class Commande
     private String  client;         // nom du client
     private ArrayList<String> references; // les references des produits de la commande
 
-
     public Commande(ArrayList<String> references, String client, String date, int numero) {
         this.references = references;
         this.client = client;
@@ -57,5 +56,15 @@ public class Commande
 
     public void setReferences(ArrayList<String> references) {
         this.references = references;
+    }
+
+    @Override
+    public String toString() {
+        return "Commande{" +
+                "numero=" + numero +
+                ", date='" + date + '\'' +
+                ", client='" + client + '\'' +
+                ", references=" + references +
+                '}';
     }
 }
